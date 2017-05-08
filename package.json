@@ -1,0 +1,28 @@
+{
+  "name": "ts-evercraft",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eebergman-katas/ts-evercraft.git"
+  },
+  "author": "Erin Bergman <erin.e.bergman@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha -r ts-node/register \"src/**/*.spec.ts\"",
+    "test:coverage": "nyc yarn test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/chai": "^3.5.2",
+    "@types/mocha": "^2.2.41",
+    "@types/node": "^7.0.18",
+    "chai": "^3.5.0",
+    "mocha": "^3.3.0",
+    "nyc": "^10.3.2",
+    "remap-istanbul": "^0.9.5",
+    "ts-node": "^3.0.4",
+    "tslint": "^5.2.0",
+    "typescript": "^2.3.2"
+  }
+}
