@@ -1,4 +1,4 @@
-import { Alignment } from './shared/alignment.enum';
+import { Alignment } from './alignment/alignment.enum';
 
 export class Character {
     private _name: string;
