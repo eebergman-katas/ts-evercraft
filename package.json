@@ -10,7 +10,8 @@
   "license": "MIT",
   "scripts": {
     "test": "mocha -r ts-node/register \"src/**/*.spec.ts\"",
-    "test:coverage": "nyc yarn test"
+    "test:coverage": "nyc yarn test",
+    "start": "ts-node index.ts"
   },
   "dependencies": {},
   "devDependencies": {
