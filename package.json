@@ -9,8 +9,8 @@
   "author": "Erin Bergman <erin.e.bergman@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "mocha -r ts-node/register \"src/**/*.spec.ts\"",
-    "test:coverage": "nyc yarn test",
+    "test": "clear; mocha -r ts-node/register \"src/**/*.spec.ts\"",
+    "test:coverage": "clear; nyc yarn test",
     "start": "ts-node index.ts"
   },
   "dependencies": {},
